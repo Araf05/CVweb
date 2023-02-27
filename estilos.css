@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: floralwhite;
+}
+
+body div.cont{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+h1{
+    display: block;
+    padding-left: 20px;
+    text-align: center, left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+h2{
+    display: block;
+    padding: 3px;
+    text-decoration-line: underline;
+    text-decoration-color:  #eca023;
+}
+
+p{
+    text-align: justify;
+}
+
+#foto {
+    display: block;
+    padding-top: 10px;
+}
+
+#nombre {
+    display: block;
+    padding-top: 10px;
+}
+
+#frase p{
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+}
+#datosP {
+    display: block;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    background-color: lightgray;
+}
+
+.td #fecha{
+    text-align: right;
+}
