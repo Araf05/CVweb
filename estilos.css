@@ -62,10 +62,10 @@ h1{
 }
 
 h2{
-    display: block;
-    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration-line: underline;
-    text-decoration-color:  #eca023;
+    text-align: left;
+    font-style: italic;
 }
 
 p{
@@ -98,4 +98,14 @@ p{
 
 .td #izquierda{
     text-align: right;
+}
+
+#enviar{
+    display: block;
+    align-content: center;
+    width: 150px;
+    padding: 3px;
+    margin-top: 4px;
+    background: grey;
+    color: #fff;
 }
