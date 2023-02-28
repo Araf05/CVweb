@@ -12,11 +12,46 @@ body div.cont{
     width: 100%;
 }
 
-header{
+header {
+    background: rgba(0, 0, 0, 0.7);
     width: 100%;
+    height: 50px;
     position: fixed;
     z-index: 100;
 }
+
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: darkcyan;
+}
+nav ul li a:hover{
+    color: #fff;
+}
+nav ul li a:visited{
+    color: #fff;
+}
+
 
 h1{
     display: block;
@@ -38,8 +73,10 @@ p{
 }
 
 #foto {
-    display: block;
     padding-top: 10px;
+    display: block;
+    width: 200px;
+    height: 200px;
 }
 
 #nombre {
@@ -59,6 +96,6 @@ p{
     background-color: lightgray;
 }
 
-.td #fecha{
+.td #izquierda{
     text-align: right;
 }
