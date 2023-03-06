@@ -102,10 +102,11 @@ p{
 
 #enviar{
     display: block;
-    align-content: center;
     width: 150px;
     padding: 3px;
     margin-top: 4px;
     background: grey;
     color: #fff;
 }
+
+
